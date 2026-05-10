@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Load Dataset
-df = pd.read_csv("sample_real_estate.csv")
+df = pd.read_csv("data/sample_real_estate.csv")
 
 # Create Extra Columns
 df['Age_of_Property'] = 2026 - df['Year_Built']
